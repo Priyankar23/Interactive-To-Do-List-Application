@@ -6,7 +6,7 @@ Task List: View all your tasks in a clean list format.
 Edit Tasks: Modify the title of an existing task.
 Delete Tasks: Remove tasks from the list when they're no longer needed.
 Mark as Complete: Track progress by marking tasks as completed.
-Persistent Storage: Tasks are stored locally in your browser using LocalStorage (optional).
+
 Technologies Used
 Frontend: ReactJS
 Styling: CSS
