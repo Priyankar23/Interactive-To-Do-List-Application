@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import First from './components/First';
+import React, { useState } from 'react';
+import TodoPopup from './components/TodoPopup'; 
+import TodoListPage from './components/TodoListPage';
+import TaskPopup from './components/TaskPopup';
+import Login from './components/Login';
 
 function App() {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  const handleLogin = () => {
+    setIsAuthenticated(true);
+  };
+
   return (
+    <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        {!isAuthenticated ? (
+          <Route path="/" element={<Login onLogin={handleLogin} />} />
+        ) : (
+          <>
+            <Route path="/" element={<First />} />
+            <Route path="/create-todo" element={<TodoPopup />} />
+            <Route path="/todo-list" element={<TodoListPage />} />
+          </>
+        )}
+      </Routes>
     </div>
+  </Router>
   );
 }
 

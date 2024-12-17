@@ -1,0 +1,53 @@
+.profile img{
+    border-radius: 50%;
+    height:65px;
+    width:65px;
+    align-items: center;
+}
+
+.prop{
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;   
+}
+
+.profile h3{
+   padding: 0;
+   margin:0;
+   font-size: 16px;
+}
+
+.profile p{
+    padding: 0;
+    margin:0;
+    font-size: 13px;
+    color: #5D6B82;
+ }
+
+ .prop11 h2{
+    color: #091E42;
+    font-size: 39px;
+    padding-top:20px;
+    padding-right: 0;
+   padding-left: 69px;
+   margin: 0;
+ }
+
+ .prop11 p{
+    color: #5D6B82;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 20px;
+ }
+ 
+ .prop11 button{
+    width: 264px;
+    height: 45px;
+    padding: 12px 8px 12px 8px;
+    gap: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0C66E4;
+    font-size: 17px;
+    color: white;
+ }

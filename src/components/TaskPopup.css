@@ -1,0 +1,142 @@
+.popupoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popupcontent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    position: relative;
+  }
+  
+  .closeee {
+    position: absolute;
+    top: 40px;
+    right: 25px;
+    width:5vh;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-size: 28px;
+    border-radius: 50px;
+    border: 1px solid #FAFBFB;
+background-color: #DFE2E6;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-form {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .task-form input, .task-form select {
+    padding: 20px;  
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+    color: #5D6B82;
+font-size: 16px;
+  }
+
+label{
+  color: #091E42;
+  font-size: 16px;
+  width:100%;
+}
+
+.optionn{
+  width:106%;
+  padding-top: 20px;
+height:10vh;
+}
+
+.option1{
+  width:93%;
+  padding-top: 20px;
+  height:10vh;
+}
+
+input{
+  padding: 0;
+  margin-bottom: 20px;
+  height:2vh;
+}
+ 
+  .popup-buttons {
+    padding-top: 0px;
+    height:15vh;
+  }
+  
+  .add-button {
+    width: 87%;
+  height:7vh;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0C66E4;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 20px;
+  }
+  
+  .discardbutton {
+    background: none;
+  color: #0C66E4;
+  border: none;
+  cursor: pointer;
+  height: 7vh;
+  font-size: 16px;
+ text-align: center;
+ padding-left: 50px;
+  }
+
+  .terminal{
+    display: flex;
+    gap:20px;
+  }
+
+  .uploaded-image-preview img{
+width:44px;
+height:44px;
+padding-top: 20px;
+  }
+
+  .tfi h2{
+    font-size: 25px;
+    color:#091E42;
+    padding: 0;
+  }
+
+  .go{
+padding-top: 10px;
+  }
+
+  input{
+    padding-top: 10px;
+  }
+
+  .option1{
+    padding-top: 10px;
+  }
+
+  .pop{
+    padding-top: 20px;
+  }

@@ -1,0 +1,177 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  width:5vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 7px;
+  padding-top: 3px;
+  cursor: pointer;
+  font-size: 28px;
+  border-radius: 50px;
+  border: 1px solid #FAFBFB;
+background-color: #DFE2E6;
+}
+
+label{
+  display: block;
+  font-size: 16px;
+  color:#333;
+font-weight: bold;
+padding-right: 500px;
+margin: 0;
+}
+
+.popup-content h2 {
+  font-size: 22px;
+  color: #091E42;
+  margin-bottom: 20px;
+  margin-left:20px ;
+  text-align: left;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.custom-file-upload {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+  display: flex;
+  gap: 25px;
+  border-radius: 10px;
+  color: #0C66E4;
+  font-weight: bold;
+  align-items: left; 
+}
+
+.custom-file-upload img {
+  top: 30px;
+  right: 25px;
+  width:6vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  cursor: pointer;
+  font-size: 28px;
+  border-radius: 50px;
+  border: 1px solid #FAFBFB;
+background-color: #DFE2E6;
+
+}
+
+.custom-file-upload p {
+   
+    font-size: 14px;
+    color: black;
+    font-size: 17px;
+   font-weight: lighter;
+}
+
+.uploaded-image {
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 14px;
+  color: #5D6B82;
+}
+.change{
+  padding-left: 18px;
+}
+
+.change-link {
+  color: #0C66E4;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+ margin: 0;
+ padding-left: 2px;
+}
+
+.in{
+  padding: 8px;
+  border: 1px solid #B3B9C4;
+  border-radius: 4px;
+  width: 95%; 
+  margin-bottom: 20px;
+  height: 30px;
+  
+}
+
+.buttons {
+  padding-top: 0px;
+  height:15vh;
+}
+
+.create-button {
+  width: 85%;
+  height:7vh;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0C66E4;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 19px;
+}
+
+.discard-button {
+  background: none;
+  color: #0C66E4;
+  border: none;
+  cursor: pointer;
+  height: 7vh;
+  font-size: 16px;
+ text-align: center;
+}
+
+.change{
+  display: flex;
+ flex-direction: row;
+}
+
+.change p{
+padding-left: 30px;
+font-size: 16px;
+color: black;
+margin: 5px;
+padding-top: 10px;
+}
+
+label{
+  text-align: left;
+}
+
